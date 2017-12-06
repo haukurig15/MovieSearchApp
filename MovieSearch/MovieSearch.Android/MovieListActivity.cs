@@ -20,7 +20,7 @@ namespace MovieSearch.Droid
     public class MovieListActivity : ListActivity
     {
         private List<Movie> _movieList;
-        private MovieDetail _movieDetail;
+        private List<MovieDetail> _movieDetailList;
 
 
 
@@ -29,20 +29,17 @@ namespace MovieSearch.Droid
             base.OnCreate(savedInstanceState);
 
 
-            MovieDbFactory.RegisterSettings(new MovieDbSettings());
-            var movieApi = MovieDbFactory.Create<IApiMovieRequest>().Value;
-            var movieService = new MovieServices(movieApi);
-
             var jsonStr = this.Intent.GetStringExtra("movieList");
             this._movieList = JsonConvert.DeserializeObject<List<Movie>>(jsonStr);
 
-            this.ListView.ItemClick += async (sender, args) =>
+            var jsonStrDetail = this.Intent.GetStringExtra("movieDetailList");
+            this._movieDetailList = JsonConvert.DeserializeObject<List<MovieDetail>>(jsonStrDetail);
+
+            this.ListView.ItemClick += (sender, args) =>
             {
 
-                _movieDetail = await movieService.getMovieDetails(this._movieList[args.Position].Id);
-
                 var intent = new Intent(this, typeof(MovieDetailActivity));
-                intent.PutExtra("movieDetailList", JsonConvert.SerializeObject(this._movieDetail));
+                intent.PutExtra("movieDetailList", JsonConvert.SerializeObject(this._movieDetailList[args.Position]));
                 this.StartActivity(intent);
             };
 

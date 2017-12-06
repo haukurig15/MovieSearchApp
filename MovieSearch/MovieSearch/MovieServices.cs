@@ -77,8 +77,9 @@ namespace MovieSearch
             return responseMovieList;
         }
 
+       
 
-        public async Task<MovieDetail> getMovieDetails(int movieId)
+       /* public async Task<MovieDetail> getMovieDetails(int movieId)
         {
             MovieDetail movieDetailList = new MovieDetail();
             var movie = await _movieApi.FindByIdAsync(movieId);
@@ -93,6 +94,26 @@ namespace MovieSearch
                 RunningTime = runTime
             };
 
+            return movieDetailList;
+        }*/
+
+        public async Task<List<MovieDetail>> getListOfMovieDetails(List<Movie> movieList)
+        {
+            List<MovieDetail> movieDetailList = new List<MovieDetail>();
+            foreach (Movie movie in movieList)
+            {
+                var movieDetail = await _movieApi.FindByIdAsync(movie.Id);
+                var runTime = movieDetail.Item.Runtime.ToString();
+                movieDetailList.Add(new MovieDetail()
+                {
+                    Title = movieDetail.Item.Title,
+                    Overview = movieDetail.Item.Overview,
+                    Year = movieDetail.Item.ReleaseDate,
+                    Genre = movieDetail.Item.Genres,
+                    ImageUrl = movieDetail.Item.PosterPath,
+                    RunningTime = runTime
+                });
+            }
             return movieDetailList;
         }
 

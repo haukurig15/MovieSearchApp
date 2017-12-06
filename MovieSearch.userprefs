@@ -1,16 +1,12 @@
 ﻿<Properties StartupConfiguration="{79E5731D-AC16-4A3E-891D-C912F76B52B1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MovieSearch/MovieSearch.Android/SplashActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieSearch/MovieSearch.Android/TopRatedFragment.cs">
     <Files>
-      <File FileName="MovieSearch/MovieSearch.Android/MainActivity.cs" Line="48" Column="37" />
-      <File FileName="MovieSearch/MovieSearch.Android/MovieInputFragment.cs" Line="42" Column="60" />
-      <File FileName="MovieSearch/MovieSearch.Android/MovieListActivity.cs" Line="20" Column="50" />
-      <File FileName="MovieSearch/MovieSearch.Android/Resources/values/styles.xml" Line="11" Column="11" />
-      <File FileName="MovieSearch/MovieSearch.Android/MovieDetailActivity.cs" Line="35" Column="47" />
-      <File FileName="MovieSearch/MovieSearch.Android/MovieListAdapter.cs" Line="57" Column="13" />
-      <File FileName="MovieSearch/MovieSearch.Android/TopRatedFragment.cs" Line="53" Column="38" />
-      <File FileName="MovieSearch/MovieSearch/MovieServices.cs" Line="59" Column="89" />
-      <File FileName="MovieSearch/MovieSearch.Android/TabsFragmentPagerAdapter.cs" Line="37" Column="10" />
-      <File FileName="MovieSearch/MovieSearch.Android/SplashActivity.cs" Line="21" Column="10" />
+      <File FileName="MovieSearch/MovieSearch.Android/MainActivity.cs" Line="48" Column="52" />
+      <File FileName="MovieSearch/MovieSearch.Android/MovieInputFragment.cs" Line="55" Column="1" />
+      <File FileName="MovieSearch/MovieSearch.Android/MovieDetailActivity.cs" Line="45" Column="1" />
+      <File FileName="MovieSearch/MovieSearch.Android/MovieListActivity.cs" Line="30" Column="13" />
+      <File FileName="MovieSearch/MovieSearch.Android/MovieListAdapter.cs" Line="57" Column="1" />
+      <File FileName="MovieSearch/MovieSearch.Android/TopRatedFragment.cs" Line="25" Column="47" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.MovieSearch.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" AndroidDesignerPreferredTheme="Theme.Material.Light.NoActionBar.TranslucentDecor" />

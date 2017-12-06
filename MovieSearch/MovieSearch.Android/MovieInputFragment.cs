@@ -50,12 +50,14 @@ namespace MovieSearch.Droid
             getMovieButton.Click += async (object sender, EventArgs e) =>
             {
                 spinner.Visibility = ViewStates.Visible;
-                var movieResult = await this._movieService.getListOfMoviesMatchingSearch(movieInputText.Text);
+                var movieResult = await _movieService.getListOfMoviesMatchingSearch(movieInputText.Text);
+                var movieDetailResult = await _movieService.getListOfMovieDetails(movieResult);
                 var manager = (InputMethodManager)this.Context.GetSystemService(Context.InputMethodService);
                 manager.HideSoftInputFromWindow(movieInputText.WindowToken, 0);
                 spinner.Visibility = ViewStates.Invisible;
                 var intent = new Intent(this.Context, typeof(MovieListActivity));
                 intent.PutExtra("movieList", JsonConvert.SerializeObject(movieResult));
+                intent.PutExtra("movieDetailList", JsonConvert.SerializeObject(movieDetailResult));
                 this.StartActivity(intent);
 
             };
