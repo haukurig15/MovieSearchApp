@@ -1,0 +1,34 @@
+C:/Users/krist/source/repos/MovieSearch/MovieSearch/MovieSearch/bin/Debug/MovieSearch.dll
+C:/Users/krist/source/repos/MovieSearch/MovieSearch/MovieSearch/bin/Debug/MovieSearch.pdb
+C:/Users/krist/source/repos/MovieSearch/MovieSearch/MovieSearch/obj/Debug/MovieSearch.csprojResolveAssemblyReference.cache
+C:/Users/krist/source/repos/MovieSearch/MovieSearch/MovieSearch/obj/Debug/MovieSearch.csproj.CoreCompileInputs.cache
+C:/Users/krist/source/repos/MovieSearch/MovieSearch/MovieSearch/obj/Debug/MovieSearch.dll
+C:/Users/krist/source/repos/MovieSearch/MovieSearch/MovieSearch/obj/Debug/MovieSearch.pdb
+C:/Users/krist/source/repos/MovieSearch/MovieSearch/MovieSearch/bin/Debug/DM.MovieApi.dll
+C:/Users/krist/source/repos/MovieSearch/MovieSearch/MovieSearch/bin/Debug/Newtonsoft.Json.dll
+C:/Users/krist/source/repos/MovieSearch/MovieSearch/MovieSearch/bin/Debug/DM.MovieApi.pdb
+C:/Users/krist/source/repos/MovieSearch/MovieSearch/MovieSearch/bin/Debug/DM.MovieApi.xml
+C:/Users/krist/source/repos/MovieSearch/MovieSearch/MovieSearch/bin/Debug/Newtonsoft.Json.xml
+/Users/Haukur/Downloads/MovieSearch-master/MovieSearch/MovieSearch/bin/Debug/MovieSearch.dll
+/Users/Haukur/Downloads/MovieSearch-master/MovieSearch/MovieSearch/bin/Debug/MovieSearch.pdb
+/Users/Haukur/Downloads/MovieSearch-master/MovieSearch/MovieSearch/bin/Debug/DM.MovieApi.dll
+/Users/Haukur/Downloads/MovieSearch-master/MovieSearch/MovieSearch/bin/Debug/Newtonsoft.Json.dll
+/Users/Haukur/Downloads/MovieSearch-master/MovieSearch/MovieSearch/bin/Debug/DM.MovieApi.pdb
+/Users/Haukur/Downloads/MovieSearch-master/MovieSearch/MovieSearch/bin/Debug/DM.MovieApi.dll.mdb
+/Users/Haukur/Downloads/MovieSearch-master/MovieSearch/MovieSearch/bin/Debug/DM.MovieApi.xml
+/Users/Haukur/Downloads/MovieSearch-master/MovieSearch/MovieSearch/bin/Debug/Newtonsoft.Json.xml
+/Users/Haukur/Downloads/MovieSearch-master/MovieSearch/MovieSearch/obj/Debug/MovieSearch.csproj.CoreCompileInputs.cache
+/Users/Haukur/Downloads/MovieSearch-master/MovieSearch/MovieSearch/obj/Debug/MovieSearch.dll
+/Users/Haukur/Downloads/MovieSearch-master/MovieSearch/MovieSearch/obj/Debug/MovieSearch.pdb
+/Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/bin/Debug/MovieSearch.dll
+/Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/bin/Debug/MovieSearch.pdb
+/Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/bin/Debug/DM.MovieApi.dll
+/Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/bin/Debug/Newtonsoft.Json.dll
+/Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/bin/Debug/DM.MovieApi.pdb
+/Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/bin/Debug/DM.MovieApi.dll.mdb
+/Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/bin/Debug/DM.MovieApi.xml
+/Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/bin/Debug/Newtonsoft.Json.xml
+/Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/obj/Debug/MovieSearch.csprojResolveAssemblyReference.cache
+/Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/obj/Debug/MovieSearch.csproj.CoreCompileInputs.cache
+/Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/obj/Debug/MovieSearch.dll
+/Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/obj/Debug/MovieSearch.pdb

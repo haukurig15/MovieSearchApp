@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{79E5731D-AC16-4A3E-891D-C912F76B52B1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieSearch/MovieSearch/MovieServices.cs">
+    <Files>
+      <File FileName="MovieSearch/MovieSearch.Android/MainActivity.cs" Line="51" Column="93" />
+      <File FileName="MovieSearch/MovieSearch.Android/MovieInputFragment.cs" Line="51" Column="1" />
+      <File FileName="MovieSearch/MovieSearch.Android/MovieListActivity.cs" Line="20" Column="50" />
+      <File FileName="MovieSearch/MovieSearch.Android/Resources/values/styles.xml" Line="11" Column="11" />
+      <File FileName="MovieSearch/MovieSearch.Android/MovieDetailActivity.cs" Line="35" Column="47" />
+      <File FileName="MovieSearch/MovieSearch.Android/MovieListAdapter.cs" Line="57" Column="13" />
+      <File FileName="MovieSearch/MovieSearch.Android/OtherFragment.cs" Line="15" Column="1" />
+      <File FileName="MovieSearch/MovieSearch/MovieServices.cs" Line="54" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MovieSearch.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" AndroidDesignerPreferredTheme="Theme.Material.Light.NoActionBar.TranslucentDecor" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

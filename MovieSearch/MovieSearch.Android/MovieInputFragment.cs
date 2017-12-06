@@ -1,0 +1,68 @@
+﻿
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+using Android.App;
+using Android.Content;
+using Android.OS;
+using Android.Runtime;
+using Android.Util;
+using Android.Views;
+using Android.Widget;
+using Android.Views.InputMethods;
+using Android.Support.Design.Widget;
+using Android.Support.V4.App;
+using Android.Support.V4.View;
+using DM.MovieApi;
+using DM.MovieApi.MovieDb.Movies;
+using Newtonsoft.Json;
+using Fragment = Android.Support.V4.App.Fragment;
+
+
+namespace MovieSearch.Droid
+{
+    [Activity(Label = "MovieSearch", Theme = "@style/MyTheme")]
+    public class MovieInputFragment : Fragment
+    {
+        private List<Movie> _movie;
+
+        public MovieInputFragment(List<Movie> movie)
+        {
+            this._movie = movie;
+        }
+
+        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle bundle)
+        {
+            var rootView = inflater.Inflate(Resource.Layout.MovieInput, container, false);
+
+            MovieDbFactory.RegisterSettings(new MovieDbSettings());
+            var movieApi = MovieDbFactory.Create<IApiMovieRequest>().Value;
+            var movieService = new MovieServices(movieApi);
+
+            // Get our button from the layout resource,
+            // and attach an event to it
+            var movieInputText = rootView.FindViewById<EditText>(Resource.Id.movieTextInputLabel);
+            var getMovieButton = rootView.FindViewById<Button>(Resource.Id.getMovieButton);
+            var displayMovieTextView = rootView.FindViewById<TextView>(Resource.Id.displayMovieSearchLabel);
+            var spinner = rootView.FindViewById<ProgressBar>(Resource.Id.progressBar);
+            spinner.Visibility = ViewStates.Invisible;
+
+            getMovieButton.Click += async (object sender, EventArgs e) =>
+            {
+                spinner.Visibility = ViewStates.Visible;
+                this._movie = await movieService.getListOfMoviesMatchingSearch(movieInputText.Text);
+                var manager = (InputMethodManager)this.Context.GetSystemService(Context.InputMethodService);
+                manager.HideSoftInputFromWindow(movieInputText.WindowToken, 0);
+                spinner.Visibility = ViewStates.Invisible;
+                var intent = new Intent(this.Context, typeof(MovieListActivity));
+                intent.PutExtra("movieList", JsonConvert.SerializeObject(this._movie));
+                this.StartActivity(intent);
+
+            };
+
+            return rootView;
+        }
+    }
+}
