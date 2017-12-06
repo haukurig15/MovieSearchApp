@@ -108,7 +108,7 @@
     <Compile Include="SplashActivity.cs" />
     <Compile Include="MovieDetailActivity.cs" />
     <Compile Include="MovieInputFragment.cs" />
-    <Compile Include="OtherFragment.cs" />
+    <Compile Include="TopRatedFragment.cs" />
     <Compile Include="TabsFragmentPagerAdapter.cs" />
   </ItemGroup>
   <ItemGroup>

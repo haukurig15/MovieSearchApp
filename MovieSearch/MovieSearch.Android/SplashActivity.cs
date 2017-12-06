@@ -9,6 +9,8 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using DM.MovieApi;
+using DM.MovieApi.MovieDb.Movies;
 using MovieSearch;
 using MovieSearch.Droid;
 
@@ -21,8 +23,14 @@ namespace HelloWorld.Droid
         {
             base.OnCreate(savedInstanceState);
 
+            MovieDbFactory.RegisterSettings(new MovieDbSettings());
+            var movieApi = MovieDbFactory.Create<IApiMovieRequest>().Value;
+            var movieService = new MovieServices(movieApi);
+
             // Create your application here
-            MainActivity.Movie = new List<Movie>();
+            MainActivity.movieService = movieService;
+
+
 
             this.StartActivity(typeof(MainActivity));
             this.Finish();

@@ -52,6 +52,32 @@ namespace MovieSearch
             return responseMovieList;
         }
 
+
+        public async Task<List<Movie>> getListOfTopRatedMovies()
+        {
+            List<Movie> responseMovieList = new List<Movie>();
+            ApiSearchResponse<MovieInfo> response = await _movieApi.GetTopRatedAsync(1);
+            foreach (MovieInfo info in response.Results)
+            {
+                ApiQueryResponse<MovieCredit> cast = await _movieApi.GetCreditsAsync(info.Id);
+                List<string> actors = new List<string>();
+                int number = 3;
+                if (cast.Item.CastMembers.Count < 3)
+                {
+                    number = cast.Item.CastMembers.Count;
+                }
+                for (int i = 0; i < number; i++)
+                {
+                    actors.Add(cast.Item.CastMembers[i].Name);
+                }
+
+                responseMovieList.Add(new Movie() { Id = info.Id, Title = info.Title, Year = info.ReleaseDate, Actors = actors, ImageUrl = info.PosterPath });
+            }
+
+            return responseMovieList;
+        }
+
+
         public async Task<MovieDetail> getMovieDetails(int movieId)
         {
             MovieDetail movieDetailList = new MovieDetail();

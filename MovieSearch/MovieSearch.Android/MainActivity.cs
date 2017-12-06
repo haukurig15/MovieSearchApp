@@ -28,7 +28,7 @@ namespace MovieSearch.Droid
 	public class MainActivity : FragmentActivity
 	{
 
-        public static List<Movie> Movie { get; set; }
+        public static MovieServices movieService { get; set; }
 
         //private MovieServices _movieService;
         //private List<Movie> _movieList;
@@ -44,8 +44,9 @@ namespace MovieSearch.Droid
 
             var fragments = new Fragment[]
             {
-                new MovieInputFragment(Movie),
-                new OtherFragment(),
+                new MovieInputFragment(movieService),
+                new TopRatedFragment(movieService),
+               
             };
 
             var titles = CharSequence.ArrayFromStringArray(new[] { "Search", "Top Rated" });

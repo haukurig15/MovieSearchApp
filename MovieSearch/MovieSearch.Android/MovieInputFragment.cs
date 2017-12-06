@@ -26,20 +26,18 @@ namespace MovieSearch.Droid
     [Activity(Label = "MovieSearch", Theme = "@style/MyTheme")]
     public class MovieInputFragment : Fragment
     {
-        private List<Movie> _movie;
+        private MovieServices _movieService;
 
-        public MovieInputFragment(List<Movie> movie)
+        public MovieInputFragment(MovieServices movieService)
         {
-            this._movie = movie;
+            this._movieService = movieService;
         }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle bundle)
         {
             var rootView = inflater.Inflate(Resource.Layout.MovieInput, container, false);
 
-            MovieDbFactory.RegisterSettings(new MovieDbSettings());
-            var movieApi = MovieDbFactory.Create<IApiMovieRequest>().Value;
-            var movieService = new MovieServices(movieApi);
+
 
             // Get our button from the layout resource,
             // and attach an event to it
@@ -52,15 +50,17 @@ namespace MovieSearch.Droid
             getMovieButton.Click += async (object sender, EventArgs e) =>
             {
                 spinner.Visibility = ViewStates.Visible;
-                this._movie = await movieService.getListOfMoviesMatchingSearch(movieInputText.Text);
+                var movieResult = await this._movieService.getListOfMoviesMatchingSearch(movieInputText.Text);
                 var manager = (InputMethodManager)this.Context.GetSystemService(Context.InputMethodService);
                 manager.HideSoftInputFromWindow(movieInputText.WindowToken, 0);
                 spinner.Visibility = ViewStates.Invisible;
                 var intent = new Intent(this.Context, typeof(MovieListActivity));
-                intent.PutExtra("movieList", JsonConvert.SerializeObject(this._movie));
+                intent.PutExtra("movieList", JsonConvert.SerializeObject(movieResult));
                 this.StartActivity(intent);
 
             };
+
+
 
             return rootView;
         }
