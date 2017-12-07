@@ -37,8 +37,6 @@ namespace MovieSearch.Droid
         {
             var rootView = inflater.Inflate(Resource.Layout.MovieInput, container, false);
 
-
-
             // Get our button from the layout resource,
             // and attach an event to it
             var movieInputText = rootView.FindViewById<EditText>(Resource.Id.movieTextInputLabel);

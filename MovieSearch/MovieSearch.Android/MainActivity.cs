@@ -66,6 +66,10 @@ namespace MovieSearch.Droid
                 {
                     await _topRatedFragment.FetchMovies();
                 }
+                else if (e.Tab.Position == 0){
+                    _topRatedFragment.clearTopRatedList();
+                }
+
             };
 
 

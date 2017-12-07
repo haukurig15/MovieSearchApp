@@ -132,7 +132,8 @@
     <AndroidResource Include="Resources\layout\MovieDetail.axml" />
     <AndroidResource Include="Resources\layout\toolbar.xml" />
     <AndroidResource Include="Resources\layout\MovieInput.axml" />
-    <AndroidResource Include="Resources\layout\MovieTopListItem.axml" />
+    <AndroidResource Include="Resources\layout\MovieTopList.axml" />
+    <AndroidResource Include="Resources\layout\MovieList.axml" />
   </ItemGroup>
   <Import Project="..\MovieDownload\MovieDownload.projitems" Label="Shared" Condition="Exists('..\MovieDownload\MovieDownload.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

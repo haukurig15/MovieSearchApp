@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{79E5731D-AC16-4A3E-891D-C912F76B52B1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MovieSearch/MovieSearch.Android/MovieListActivity.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="MovieSearch/MovieSearch.Android/MainActivity.cs" Line="73" Column="51" />
-      <File FileName="MovieSearch/MovieSearch.Android/TopRatedFragment.cs" Line="64" Column="13" />
-      <File FileName="MovieSearch/MovieSearch.Android/MovieListActivity.cs" Line="45" Column="13" />
+      <File FileName="MovieSearch/MovieSearch.Android/MainActivity.cs" Line="44" Column="42" />
+      <File FileName="MovieSearch/MovieSearch.Android/TopRatedFragment.cs" Line="49" Column="15" />
+      <File FileName="MovieSearch/MovieSearch.Android/MovieListActivity.cs" Line="32" Column="56" />
       <File FileName="MovieSearch/MovieSearch.Android/TabsFragmentPagerAdapter.cs" Line="41" Column="1" />
-      <File FileName="MovieSearch/MovieSearch.Android/MovieListAdapter.cs" Line="67" Column="1" />
-      <File FileName="MovieSearch/MovieSearch.Android/MovieInputFragment.cs" Line="40" Column="1" />
+      <File FileName="MovieSearch/MovieSearch.Android/MovieListAdapter.cs" Line="60" Column="107" />
+      <File FileName="MovieSearch/MovieSearch.Android/MovieInputFragment.cs" Line="39" Column="13" />
       <File FileName="MovieSearch/MovieSearch.Android/MovieDetailActivity.cs" Line="35" Column="49" />
     </Files>
   </MonoDevelop.Ide.Workbench>
