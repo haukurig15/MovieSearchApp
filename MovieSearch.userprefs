@@ -1,13 +1,12 @@
 ﻿<Properties StartupConfiguration="{79E5731D-AC16-4A3E-891D-C912F76B52B1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MovieSearch/MovieSearch.Android/Resources/values/styles.xml">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="MovieSearch/MovieSearch.Android/MainActivity.cs" Line="71" Column="1" />
-      <File FileName="MovieSearch/MovieSearch.Android/MovieInputFragment.cs" Line="56" Column="42" />
-      <File FileName="MovieSearch/MovieSearch.Android/TopRatedFragment.cs" Line="64" Column="41" />
-      <File FileName="MovieSearch/MovieSearch.Android/Resources/values/styles.xml" Line="9" Column="65" />
+      <File FileName="MovieSearch/MovieSearch.Android/MovieInputFragment.cs" Line="38" Column="61" />
+      <File FileName="MovieSearch/MovieSearch.Android/Properties/AndroidManifest.xml" Line="4" Column="65" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.MovieSearch.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" AndroidDesignerPreferredTheme="Theme.Material.Light.NoActionBar.TranslucentDecor" />
+  <MonoDevelop.Ide.ItemProperties.MovieSearch.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
