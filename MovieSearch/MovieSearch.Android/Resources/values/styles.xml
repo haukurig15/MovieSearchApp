@@ -3,10 +3,10 @@
   <style name="MyTheme" parent="Theme.AppCompat.Light">
 	<item name="android:windowNoTitle">true</item>
     <item name="android:windowActionBar">false</item>
-	<item name="android:colorPrimary">#5A8622</item>
+	<item name="android:colorPrimary">#2B2286</item>
   </style>
   <style name="MyTheme.Splash" parent ="android:Theme.Light">
-    <item name="android:windowBackground">@drawable/Splash</item>
+    <item name="android:windowBackground">@drawable/FirstDisplay</item>
     <item name="android:windowNoTitle">true</item>
   </style>
 </resources>
