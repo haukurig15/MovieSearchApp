@@ -21,7 +21,7 @@ namespace MovieSearch.Droid
     {
         private MovieServices _movieService;
         private List<Movie> _movieList = new List<Movie>();
-        private List<MovieDetail> _movieDetailList;
+        private List<MovieDetail> _movieDetailList = new List<MovieDetail>();
         private ProgressBar _spinner;
         private ListView _listView;
 
@@ -62,6 +62,7 @@ namespace MovieSearch.Droid
         }
 
         public void clearTopRatedList(){
+            
             this._movieList.Clear();
             this._movieDetailList.Clear();
         }
