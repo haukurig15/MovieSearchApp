@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:padding="10dp">
     <TextView
-        android:text="Some movie title (2015)"
+        android:text=""
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:fontFamily="serif-monospace"
@@ -13,7 +13,7 @@
         android:textColor="@color/saddlebrown"
         android:id="@+id/title" />
     <TextView
-        android:text="Cast"
+        android:text=""
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
@@ -27,4 +27,12 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_alignParentRight="true" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
 </RelativeLayout>

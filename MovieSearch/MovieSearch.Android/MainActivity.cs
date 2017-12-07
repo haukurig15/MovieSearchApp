@@ -32,6 +32,7 @@ namespace MovieSearch.Droid
 
         //private MovieServices _movieService;
         //private List<Movie> _movieList;
+       // private TopRatedFragment _topRatedFragment;
 
 
         protected override void OnCreate (Bundle bundle)
@@ -41,11 +42,12 @@ namespace MovieSearch.Droid
 
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
-
+            var _movieInputFragment = new MovieInputFragment(movieService);
+            var _topRatedFragment = new TopRatedFragment(movieService);
             var fragments = new Fragment[]
             {
-                new MovieInputFragment(movieService),
-                new TopRatedFragment(movieService),
+                _movieInputFragment,
+                _topRatedFragment,
                
             };
 
@@ -56,6 +58,16 @@ namespace MovieSearch.Droid
 
             var tabLayout = this.FindViewById<TabLayout>(Resource.Id.sliding_tabs);
             tabLayout.SetupWithViewPager(viewPager);
+
+
+            tabLayout.TabSelected += async (sender, e) =>
+            {
+                if (e.Tab.Position == 1)
+                {
+                    await _topRatedFragment.FetchMovies();
+                }
+            };
+
 
             var toolbar = this.FindViewById<Toolbar>(Resource.Id.toolbar);
             this.SetActionBar(toolbar);

@@ -10,7 +10,6 @@ public class TopRatedFragment
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
 			"n_onCreateView:(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;:GetOnCreateView_Landroid_view_LayoutInflater_Landroid_view_ViewGroup_Landroid_os_Bundle_Handler\n" +
 			"";
 		mono.android.Runtime.register ("MovieSearch.Droid.TopRatedFragment, MovieSearch.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", TopRatedFragment.class, __md_methods);
@@ -23,14 +22,6 @@ public class TopRatedFragment
 		if (getClass () == TopRatedFragment.class)
 			mono.android.TypeManager.Activate ("MovieSearch.Droid.TopRatedFragment, MovieSearch.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
-
-
-	public void onCreate (android.os.Bundle p0)
-	{
-		n_onCreate (p0);
-	}
-
-	private native void n_onCreate (android.os.Bundle p0);
 
 
 	public android.view.View onCreateView (android.view.LayoutInflater p0, android.view.ViewGroup p1, android.os.Bundle p2)
