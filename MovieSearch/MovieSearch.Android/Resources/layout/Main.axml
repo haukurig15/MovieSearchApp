@@ -11,6 +11,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:id="@+id/main_content"
+        android:background="@color/silver"
         android:layout_below="@id/toolbar">
         <android.support.design.widget.TabLayout
             android:id="@+id/sliding_tabs"

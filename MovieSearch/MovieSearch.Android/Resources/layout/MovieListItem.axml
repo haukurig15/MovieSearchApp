@@ -6,19 +6,19 @@
     android:padding="10dp">
     <TextView
         android:text=""
-        android:layout_width="180dp"
+        android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:fontFamily="serif-monospace"
-        android:textSize="20dp"
-        android:textColor="@color/saddlebrown"
+        android:textSize="18dp"
+        android:textColor="@color/grey"
         android:id="@+id/title" />
     <TextView
         android:text=""
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
-        android:textSize="14dp"
-        android:textColor="@color/green"
+        android:textSize="10dp"
+        android:textColor="@color/white"
         android:id="@+id/cast"
         android:layout_below="@id/title"
         android:layout_alignLeft="@id/title" />

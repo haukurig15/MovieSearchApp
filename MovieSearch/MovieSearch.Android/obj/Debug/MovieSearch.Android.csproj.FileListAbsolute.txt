@@ -121,5 +121,6 @@ C:/Users/krist/source/repos/MovieSearch/MovieSearch/MovieSearch.Android/obj/Debu
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch.Android/obj/Debug/res/layout/movielist.xml
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch.Android/obj/Debug/res/drawable-hdpi/firstdisplay.png
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch.Android/obj/Debug/res/layout/movieinput.xml
+/Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch.Android/obj/Debug/res/drawable-hdpi/moviebackground.png
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch.Android/obj/Debug/R.cs.flag
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch.Android/obj/Debug/uploadflags.txt

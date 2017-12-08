@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/listItem"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/movieBackground">
     <include
         android:id="@+id/toolbar"
         layout="@layout/toolbar" />
@@ -22,7 +23,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="serif-monospace"
             android:textSize="22dp"
-            android:textColor="@color/saddlebrown"
+            android:textColor="@color/grey"
             android:id="@+id/detailTitle" />
         <TextView
             android:text="Genres"
@@ -30,7 +31,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"
             android:textSize="12dp"
-            android:textColor="@color/green"
+            android:textColor="@color/white"
             android:id="@+id/genres"
             android:layout_below="@id/detailTitle"
             android:layout_alignLeft="@id/detailTitle" />
@@ -40,7 +41,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"
             android:textSize="12dp"
-            android:textColor="@color/green"
+            android:textColor="@color/white"
             android:id="@+id/runtime"
             android:layout_below="@id/genres"
             android:layout_alignLeft="@id/genres" />
@@ -65,7 +66,7 @@
                 android:fontFamily="sans-serif"
                 android:textSize="12dp"
                 android:padding="5dp"
-                android:textColor="@color/green"
+                android:textColor="@color/white"
                 android:id="@+id/overview" />
         </LinearLayout>
     </LinearLayout>

@@ -135,6 +135,7 @@
     <AndroidResource Include="Resources\layout\MovieList.axml" />
     <AndroidResource Include="Resources\drawable-hdpi\FirstDisplay.png" />
     <AndroidResource Include="Resources\layout\MovieInput.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\movieBackground.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Activities\" />
