@@ -14,7 +14,7 @@ using Java.Lang;
 using Fragment = Android.Support.V4.App.Fragment;
 using FragmentManager = Android.Support.V4.App.FragmentManager;
 
-namespace MovieSearch.Droid
+namespace MovieSearch.Droid.Adapters
 {
     public class TabsFragmentPagerAdapter : FragmentPagerAdapter
     {

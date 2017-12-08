@@ -16,11 +16,10 @@ using DM.MovieApi;
 using DM.MovieApi.MovieDb.Movies;
 using Newtonsoft.Json;
 using Fragment = Android.Support.V4.App.Fragment;
+using MovieSearch.Droid.Fragments;
+using MovieSearch.Droid.Adapters;
 
-
-
-
-namespace MovieSearch.Droid
+namespace MovieSearch.Droid.Activities
 {
     
 

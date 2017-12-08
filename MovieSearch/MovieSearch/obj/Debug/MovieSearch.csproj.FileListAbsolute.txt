@@ -31,4 +31,3 @@ C:/Users/krist/source/repos/MovieSearch/MovieSearch/MovieSearch/bin/Debug/Newton
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/obj/Debug/MovieSearch.csproj.CoreCompileInputs.cache
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/obj/Debug/MovieSearch.dll
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/obj/Debug/MovieSearch.pdb
-/Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/obj/Debug/MovieSearch.csprojResolveAssemblyReference.cache

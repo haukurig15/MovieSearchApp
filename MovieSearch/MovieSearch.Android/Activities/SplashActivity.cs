@@ -12,9 +12,9 @@ using Android.Widget;
 using DM.MovieApi;
 using DM.MovieApi.MovieDb.Movies;
 using MovieSearch;
-using MovieSearch.Droid;
+using MovieSearch.Droid.Activities;
 
-namespace HelloWorld.Droid
+namespace HelloWorld.Droid.Activities
 {
     [Activity(Label = "MovieSearch", Theme = "@style/MyTheme.Splash", MainLauncher = true, Icon = "@drawable/icon")]
     public class SplashActivity : Activity

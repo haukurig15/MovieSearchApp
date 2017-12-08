@@ -1,9 +1,15 @@
 ﻿<Properties StartupConfiguration="{79E5731D-AC16-4A3E-891D-C912F76B52B1}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieSearch/MovieSearch.Android/Fragments/TopRatedFragment.cs">
     <Files>
-      <File FileName="MovieSearch/MovieSearch.Android/MainActivity.cs" Line="71" Column="1" />
-      <File FileName="MovieSearch/MovieSearch.Android/MovieInputFragment.cs" Line="38" Column="61" />
+      <File FileName="MovieSearch/MovieSearch.Android/Activities/MainActivity.cs" Line="23" Column="28" />
+      <File FileName="MovieSearch/MovieSearch.Android/Fragments/MovieInputFragment.cs" Line="24" Column="38" />
       <File FileName="MovieSearch/MovieSearch.Android/Properties/AndroidManifest.xml" Line="4" Column="65" />
+      <File FileName="MovieSearch/MovieSearch.Android/Activities/MovieListActivity.cs" Line="17" Column="39" />
+      <File FileName="MovieSearch/MovieSearch.Android/Adapters/MovieListAdapter.cs" Line="14" Column="28" />
+      <File FileName="MovieSearch/MovieSearch.Android/Activities/MovieDetailActivity.cs" Line="14" Column="39" />
+      <File FileName="MovieSearch/MovieSearch.Android/Activities/SplashActivity.cs" Line="17" Column="38" />
+      <File FileName="MovieSearch/MovieSearch.Android/Adapters/TabsFragmentPagerAdapter.cs" Line="17" Column="37" />
+      <File FileName="MovieSearch/MovieSearch.Android/Fragments/TopRatedFragment.cs" Line="18" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.MovieSearch.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />

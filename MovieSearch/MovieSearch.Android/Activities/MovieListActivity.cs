@@ -12,9 +12,10 @@ using Android.Views;
 using Android.Widget;
 using DM.MovieApi;
 using DM.MovieApi.MovieDb.Movies;
+using MovieSearch.Droid.Adapters;
 using Newtonsoft.Json;
 
-namespace MovieSearch.Droid
+namespace MovieSearch.Droid.Activities
 {
     [Activity(Label = "Movie list", Theme = "@style/MyTheme")]
     public class MovieListActivity : Activity

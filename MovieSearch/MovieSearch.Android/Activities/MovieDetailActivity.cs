@@ -11,7 +11,7 @@ using Android.Widget;
 using Com.Bumptech.Glide;
 using Newtonsoft.Json;
 
-namespace MovieSearch.Droid
+namespace MovieSearch.Droid.Activities
 {
     [Activity(Label = "Movie info", Theme = "@style/MyTheme")]
     public class MovieDetailActivity : Activity

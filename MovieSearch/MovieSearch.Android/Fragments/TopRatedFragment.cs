@@ -11,11 +11,13 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using MovieSearch.Droid.Activities;
+using MovieSearch.Droid.Adapters;
 using Newtonsoft.Json;
 using Fragment = Android.Support.V4.App.Fragment;
 
 
-namespace MovieSearch.Droid
+namespace MovieSearch.Droid.Fragments
 {
     public class TopRatedFragment : Fragment
     {

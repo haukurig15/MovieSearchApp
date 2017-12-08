@@ -19,9 +19,9 @@ using DM.MovieApi;
 using DM.MovieApi.MovieDb.Movies;
 using Newtonsoft.Json;
 using Fragment = Android.Support.V4.App.Fragment;
+using MovieSearch.Droid.Activities;
 
-
-namespace MovieSearch.Droid
+namespace MovieSearch.Droid.Fragments
 {
     [Activity(Label = "MovieSearch", Theme = "@style/MyTheme")]
     public class MovieInputFragment : Fragment

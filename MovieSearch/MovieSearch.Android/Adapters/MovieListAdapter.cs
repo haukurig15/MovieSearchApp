@@ -11,7 +11,7 @@ using Android.Views;
 using Android.Widget;
 using Com.Bumptech.Glide;
 
-namespace MovieSearch.Droid
+namespace MovieSearch.Droid.Adapters
 {
     public class MovieListAdapter: BaseAdapter<Movie>
     {
