@@ -1,17 +1,8 @@
 ﻿<Properties StartupConfiguration="{79E5731D-AC16-4A3E-891D-C912F76B52B1}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="MovieSearch/MovieSearch.Android/Activities/MainActivity.cs" Line="56" Column="43" />
-      <File FileName="MovieSearch/MovieSearch.Android/Fragments/MovieInputFragment.cs" Line="26" Column="62" />
-      <File FileName="MovieSearch/MovieSearch.Android/Properties/AndroidManifest.xml" Line="4" Column="65" />
-      <File FileName="MovieSearch/MovieSearch.Android/Activities/MovieListActivity.cs" Line="62" Column="45" />
-      <File FileName="MovieSearch/MovieSearch.Android/Adapters/MovieListAdapter.cs" Line="60" Column="98" />
-      <File FileName="MovieSearch/MovieSearch.Android/Activities/MovieDetailActivity.cs" Line="14" Column="39" />
-      <File FileName="MovieSearch/MovieSearch.Android/Activities/SplashActivity.cs" Line="15" Column="35" />
-      <File FileName="MovieSearch/MovieSearch.Android/Adapters/TabsFragmentPagerAdapter.cs" Line="17" Column="37" />
-      <File FileName="MovieSearch/MovieSearch.Android/Fragments/TopRatedFragment.cs" Line="27" Column="38" />
-      <File FileName="MovieSearch/MovieSearch.Android/Resources/values/styles.xml" Line="6" Column="43" />
-      <File FileName="MovieSearch/MovieSearch.Android/Resources/values/color.xml" Line="3" Column="19" />
+      <File FileName="MovieSearch/MovieSearch.Android/Activities/MainActivity.cs" Line="51" Column="15" />
+      <File FileName="../../../../../../Library/Frameworks/Xamarin.Android.framework/Versions/8.0.2-1/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1287" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.MovieSearch.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />

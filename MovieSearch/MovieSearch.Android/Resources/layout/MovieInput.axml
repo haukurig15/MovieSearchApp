@@ -10,7 +10,6 @@
         android:layout_height="fill_parent"
         android:descendantFocusability="beforeDescendants"
         android:focusableInTouchMode="true"
-        android:windowSoftInputMode="adjustResize"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp">
         <TextView
@@ -25,6 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
+            android:backgroundTint="@color/white"
             android:id="@+id/movieTextInputLabel" />
         <Button
             android:layout_width="match_parent"

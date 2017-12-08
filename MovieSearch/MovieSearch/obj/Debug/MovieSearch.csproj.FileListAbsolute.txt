@@ -28,7 +28,7 @@ C:/Users/krist/source/repos/MovieSearch/MovieSearch/MovieSearch/bin/Debug/Newton
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/bin/Debug/DM.MovieApi.dll.mdb
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/bin/Debug/DM.MovieApi.xml
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/bin/Debug/Newtonsoft.Json.xml
+/Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/obj/Debug/MovieSearch.csprojResolveAssemblyReference.cache
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/obj/Debug/MovieSearch.csproj.CoreCompileInputs.cache
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/obj/Debug/MovieSearch.dll
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/obj/Debug/MovieSearch.pdb
-/Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch/obj/Debug/MovieSearch.csprojResolveAssemblyReference.cache

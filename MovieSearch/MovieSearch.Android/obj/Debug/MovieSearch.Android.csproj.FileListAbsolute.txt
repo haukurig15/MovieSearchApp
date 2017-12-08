@@ -72,6 +72,7 @@ C:/Users/krist/source/repos/MovieSearch/MovieSearch/MovieSearch.Android/obj/Debu
 /Users/Haukur/Downloads/MovieSearch-master/MovieSearch/MovieSearch.Android/obj/Debug/res/layout/movieinput.xml
 /Users/Haukur/Downloads/MovieSearch-master/MovieSearch/MovieSearch.Android/obj/Debug/R.cs.flag
 /Users/Haukur/Downloads/MovieSearch-master/MovieSearch/MovieSearch.Android/obj/Debug/uploadflags.txt
+/Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch.Android/obj/Debug/MovieSearch.Android.csprojResolveAssemblyReference.cache
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch.Android/bin/Debug/MovieSearch.Android.dll
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch.Android/bin/Debug/MovieSearch.Android.pdb
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch.Android/bin/Debug/com.companyname.MovieSearch.apk
@@ -99,7 +100,6 @@ C:/Users/krist/source/repos/MovieSearch/MovieSearch/MovieSearch.Android/obj/Debu
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch.Android/bin/Debug/DM.MovieApi.dll.mdb
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch.Android/bin/Debug/DM.MovieApi.xml
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch.Android/bin/Debug/Newtonsoft.Json.xml
-/Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch.Android/obj/Debug/MovieSearch.Android.csprojResolveAssemblyReference.cache
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch.Android/obj/Debug/MovieSearch.Android.csproj.CoreCompileInputs.cache
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch.Android/obj/Debug/MovieSearch.Android.dll
 /Users/Haukur/Documents/Skóli/Haust 2017/MovieSearch-master/MovieSearch/MovieSearch.Android/obj/Debug/MovieSearch.Android.pdb
